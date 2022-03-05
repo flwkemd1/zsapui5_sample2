@@ -5,8 +5,8 @@ sap.ui.define([
 	"use strict";
 
 	return BaseController.extend("zsample2.controller.App", {
-
-		onInit : function () {
+       
+		onInit : function () {   
 			var oViewModel,
 				fnSetAppNotBusy,
 				iOriginalBusyDelay = this.getView().getBusyIndicatorDelay();
